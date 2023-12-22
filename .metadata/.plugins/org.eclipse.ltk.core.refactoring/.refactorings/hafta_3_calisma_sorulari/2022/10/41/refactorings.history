@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;hafta_3_calisma_sorulari.kahpekar_sabiti_bulma_fonksiyonu.java&apos; to &apos;kaprekar_sabiti_bulma_fonksiyonu.java&apos;&#x0D;&#x0A;- Original project: &apos;hafta_3_calisma_sorulari&apos;&#x0D;&#x0A;- Original element: &apos;hafta_3_calisma_sorulari.kahpekar_sabiti_bulma_fonksiyonu.java&apos;&#x0D;&#x0A;- Renamed element: &apos;hafta_3_calisma_sorulari.kaprekar_sabiti_bulma_fonksiyonu.java&apos;" description="Rename compilation unit &apos;kahpekar_sabiti_bulma_fonksiyonu.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;hafta_3_calisma_sorulari{kahpekar_sabiti_bulma_fonksiyonu.java" name="kaprekar_sabiti_bulma_fonksiyonu.java" references="false" stamp="1665220957950" version="1.0"/>
+</session>

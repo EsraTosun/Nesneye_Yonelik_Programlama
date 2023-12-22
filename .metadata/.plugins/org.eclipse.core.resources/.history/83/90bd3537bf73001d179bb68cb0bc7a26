@@ -1,0 +1,77 @@
+package Paket1;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+
+public class Condiments extends Urun 
+{
+	
+	private String kategoriAdi;
+	private String detay;
+	
+	public Condiments()
+	{
+		
+	}
+	public Condiments(String adi, int kategoriIndex, String birimAgirligi, double birimFiyati, int stokMiktari,
+			String kategoriAdi, String detay) {
+		super(adi, kategoriIndex, birimAgirligi, birimFiyati, stokMiktari, kategoriAdi, detay);
+		this.kategoriAdi = kategoriAdi;
+		this.detay = detay;
+	}
+	
+	 public static void UrunAdiDegistir(ArrayList<Beverages> Beverageslist,
+	    		ArrayList<Condiments> Condimentslist,ArrayList<Confections> Confectionslist,
+	    		ArrayList<DairyProducts> DairyProductslist,ArrayList<GrainsCereals> GrainsCerealslist,
+	    		String adi)
+	    {	
+			 Scanner scanner=new Scanner(System.in);
+			 String yeniAdi;
+			 int sayac=0;
+	    	
+	    	
+	       		for(int i=0;i<Condimentslist.size();i++)
+	       		{
+	       			if(Condimentslist.get(i).getAdi().compareTo(adi)==0)
+	       			{
+	       	       		Condiments.ListeyiYazdir(Condimentslist);
+	       	       		for(int k=0;k<adi.length();k++)
+	       	       		{
+	       	       			if(adi.charAt(k)=='a' ||adi.charAt(k)=='e' ||adi.charAt(k)=='i' ||adi.charAt(k)=='u' ||
+	       	       				adi.charAt(k)=='o' || adi.charAt(k)=='A' ||adi.charAt(k)=='e' ||adi.charAt(k)=='I' ||
+	       	       			adi.charAt(k)=='U' ||adi.charAt(k)=='O')
+	       	       			{
+	       	       				Condimentslist.get(i).setAdi(Condimentslist.get(i).getAdi().substring(k));
+	       	       				k--;
+	       	       			}
+	       	       			
+	       	       		}
+	       			//	Condimentslist.get(i).setAdi(yeniAdi);	
+	       				break;
+	       			}
+	       		}
+	       		Condiments.ListeyiYazdir(Condimentslist);
+	      
+	    }
+	    
+		
+	
+		
+	public static void ListeyiYazdir(ArrayList<Condiments> urun)
+	{
+		for(int i=0;i<urun.size();i++)
+		{
+			System.out.println("\t "+urun.get(i).getAdi()+
+					"     \t \t "+urun.get(i).getKategoriIndex()+
+					"\t \t      "+urun.get(i).getBirimAgirligi()+
+					"\t \t "+urun.get(i).getBirimFiyati()+
+					"\t \t "+urun.get(i).getStokMiktari()+
+					"\t \t "+urun.get(i).kategoriAdi+
+					"\t \t "+urun.get(i).detay);
+				}
+			System.out.println("listede eleman sayisi:"+urun.size());
+			System.out.println();
+	}
+}

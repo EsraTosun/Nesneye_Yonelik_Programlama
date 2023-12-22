@@ -1,0 +1,102 @@
+package hafta_5_dersteki_ornekleri;
+
+//debug kullan ve öğren
+
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+	/*	Musteri yeniMusteri=new Musteri();
+		yeniMusteri.Adi="Ahmet";
+		yeniMusteri.Soyadi="Yılmaz";
+		yeniMusteri.AktifMi=true;
+		yeniMusteri.FaturaTutari=1253.24;
+		yeniMusteri.puan=60;
+		
+		String aktifMi=yeniMusteri.AktifMi==true?"Evet":"hayır";
+		
+		System.out.println("adi:"+yeniMusteri.Adi+"\n Soyadi:"+yeniMusteri.Soyadi
+				+"Aktiflik Durumu"+aktifMi+
+				"Tutari:"+yeniMusteri.FaturaTutari+"puan:" +yeniMusteri.puan);   */
+		
+		FileReader fileReader=new FileReader("Musteri.txt");
+		//dosya oluşturmak için ilk önce üstteki komutu ekle;
+		//projenin olduğu projeye git ve sağa tıkla
+		//properties diyerek dosyayı ekle
+		//dosya eklemesini öğren
+		//o yüzden hara veriyor
+		
+		BufferedReader bufferedReader=new BufferedReader(fileReader);
+		
+		ArrayList<Musteri> musteriList=new ArrayList<Musteri>();
+		
+		try
+		{
+			String satir=bufferedReader .readLine();
+			
+			
+			
+			while(satir!=null)
+			{
+				
+				Musteri yeniMusteri=new Musteri();
+				
+				
+				//System.out.println(satir);
+				String[] dizi= satir.split(" ");
+				
+				yeniMusteri.Adi=dizi[0];
+				yeniMusteri.Soyadi=dizi[1];
+				yeniMusteri.puan=Integer.valueOf(dizi[2]);
+				yeniMusteri.FaturaTutari=Double.valueOf(dizi[3]);
+				yeniMusteri.AktifMi=dizi[4].equals("E")? true:false;
+				//dizi[4].compareTo("E")==0?
+				yeniMusteri.sehir=dizi[5];
+				
+				musteriList.add(yeniMusteri);
+				yeniMusteri=null;
+				
+				//boşluğa kadar olan verileri sıra ile dizye aktatır
+				//System.out.println("adi: "+dizi[0]+" soyadi:"+dizi[1]);
+				
+				satir=bufferedReader.readLine();
+			}
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
+		
+		for (int i = 0; i <musteriList.size(); i++) 
+		{
+			Musteri mevcutMusteri=musteriList.get(i);
+			System.out.println("\t"+mevcutMusteri.Adi+mevcutMusteri.Soyadi+"\t"
+			+mevcutMusteri.FaturaTutari
+			+"\t"+mevcutMusteri.AktifMi+"\t"
+			+mevcutMusteri.puan);
+		}
+		
+		System.out.println("AKTIF MUSTERI LISTEMIZ");
+		
+		for (Musteri musteri : musteriList) {
+			
+			if(musteri.AktifMi==true)
+			{
+				Yazdir(musteri);
+			}
+		}
+
+
+	}
+	
+	public static void Yazdir(Musteri mevcutMusteri)
+	{
+	
+		
+	}
+
+}

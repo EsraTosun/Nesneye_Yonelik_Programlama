@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;InfixiPostfixeCevirme&apos; to &apos;veri_yapilari_odev_4/src&apos;&#x0D;&#x0A;- Original project: &apos;Infix_Postfix&apos;&#x0D;&#x0A;- Destination element: &apos;veri_yapilari_odev_4/src&apos;&#x0D;&#x0A;- Original element: &apos;Infix_Postfix/src/InfixiPostfixeCevirme&apos;" description="Copy package" destination="=veri_yapilari_odev_4/src" element1="/src&lt;InfixiPostfixeCevirme" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1667890416451" version="1.0"/>
+</session>

@@ -1,0 +1,6 @@
+KategoriIndex Adi Detay
+1 Beverages Softdrinks,coffees,teas
+2 Condiments SweetandSavorySauces,relishes,spreads,andSeasonings
+3 Confections Desserts,candies,andSweetBreads
+4 DairyProducts Cheeses
+5 GrainsCereals Breads,crackers,pasta,andCereal

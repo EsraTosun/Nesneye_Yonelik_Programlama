@@ -1,0 +1,70 @@
+package hafta_3_calisma_sorulari;
+
+public class sayilari_ikilik_tabana_cevirme {
+
+	public static void main(String[] args) {
+
+		int sayi=15;
+		//ikiliTabanKarsiligi(sayi);
+		sayi=101;
+		tamSayiKarsiligi(sayi);
+		
+	}
+	
+	public static void ikiliTabanKarsiligi(int sayi)
+	{
+		int []dizi=new int[20];
+		int i=0;
+		while(sayi>0)
+		{
+			dizi[i]=sayi%2;
+			sayi/=2;
+			i++;
+		}
+		
+		for(int j=i-1;j>=0;j--)
+		{
+			System.out.print(dizi[j]);
+		}
+	}
+	
+	public static int pow(int i,int sonuc1)
+	{
+		int carpim=sonuc1;
+		if(sonuc1==0) {
+		//	System.out.println(0);
+			return 0;
+		}
+		
+		if(i ==0)
+		{
+		//	System.out.println(1);
+			return 1;
+		}
+		
+		for(int j=1;i>=j;j++)
+		{
+			carpim*=2;
+		}
+		//System.out.println(carpim);
+		return carpim;
+	}
+	
+	public static void tamSayiKarsiligi(int sayi)
+	{
+		int toplam=0,sonuc1,sonuc2=0,i=0;
+		
+		while(sayi>0) //0 ve 1 sayılarından oluşacağı için
+		{
+				
+				sonuc1=sayi&1;
+				sonuc2+=sonuc1*pow(i,sonuc1);
+				sayi/=10;
+				i++;
+			//	System.out.println(sonuc2);
+			
+		}
+		System.out.println(sonuc2);
+	}
+
+}

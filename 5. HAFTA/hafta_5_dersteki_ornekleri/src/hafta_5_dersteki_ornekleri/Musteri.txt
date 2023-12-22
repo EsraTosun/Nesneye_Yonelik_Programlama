@@ -1,0 +1,9 @@
+Ahmet Yılmaz 253 1023.5 E Van
+Selman Sahin 25 215.5 H Konya
+Ali Doğan 16 167.45 H Muş
+Fatma Yıldız 20 135.12 E Konya
+Veli Bayrak 14 152.5 E Ankara
+Ayse Ay 25 227.5 H Ankara
+Mehmet Turan 12 125.6 E Adana
+Sami Güneş 56 157.34 H Adana
+Kemal Toprak 66 623.12 H İzmir

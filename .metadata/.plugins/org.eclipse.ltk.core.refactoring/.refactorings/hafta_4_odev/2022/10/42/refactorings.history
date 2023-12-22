@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;minidex&apos; in &apos;hafta_4_odev.hafta_4_odev.Siralama(...)&apos; to &apos;maximum&apos;&#x0D;&#x0A;- Original project: &apos;hafta_4_odev&apos;&#x0D;&#x0A;- Original element: &apos;hafta_4_odev.hafta_4_odev.Siralama(ArrayList&lt;Integer&gt;, ArrayList&lt;Integer&gt;).minidex&apos;&#x0D;&#x0A;- Renamed element: &apos;minidex&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;minidex&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;hafta_4_odev{hafta_4_odev.java[hafta_4_odev~Siralama~QArrayList\&lt;QInteger;&gt;;~QArrayList\&lt;QInteger;&gt;;@minidex!1272!1283!1276!1282!I!0!false" name="maximum" references="true" stamp="1665922100744" version="1.0"/>
+</session>

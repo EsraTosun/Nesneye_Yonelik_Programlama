@@ -1,0 +1,24 @@
+package hafta_5_dersteki_ornekleri;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		Musteri yeniMusteri=new Musteri();
+		yeniMusteri.Adi="Ahmet";
+		yeniMusteri.Soyadi="Yılmaz";
+		yeniMusteri.AktifMi=true;
+		yeniMusteri.FaturaTutari=1253.24;
+		yeniMusteri.puan=60;
+		
+		String aktifMi=yeniMusteri.AktifMi==true?"Evet":"hayır";
+		
+		System.out.println("adi:"+yeniMusteri.Adi+"\n Soyadi:"+yeniMusteri.Soyadi
+				+"Aktiflik Durumu"+aktifMi+
+				"Tutari:"+yeniMusteri.FaturaTutari+"puan:" +yeniMusteri.puan);
+		
+		
+		
+	}
+
+}

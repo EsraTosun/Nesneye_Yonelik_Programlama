@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;BagliListeIleYigin&apos; to &apos;veri_yapilari_odev_4/src&apos;&#x0D;&#x0A;- Original project: &apos;Stack(Yigin)&apos;&#x0D;&#x0A;- Destination element: &apos;veri_yapilari_odev_4/src&apos;&#x0D;&#x0A;- Original element: &apos;Stack(Yigin)/src/BagliListeIleYigin&apos;" description="Copy package" destination="=veri_yapilari_odev_4/src" element1="/src&lt;BagliListeIleYigin" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1667850928678" version="1.0"/>
+</session>

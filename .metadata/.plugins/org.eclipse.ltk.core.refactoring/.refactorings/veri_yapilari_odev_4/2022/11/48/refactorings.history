@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;PosfixHesaplama.StakYapisi.java&apos; to &apos;StackYapisi.java&apos;&#x0D;&#x0A;- Original project: &apos;veri_yapilari_odev_4&apos;&#x0D;&#x0A;- Original element: &apos;PosfixHesaplama.StakYapisi.java&apos;&#x0D;&#x0A;- Renamed element: &apos;PosfixHesaplama.StackYapisi.java&apos;" description="Rename compilation unit &apos;StakYapisi.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;PosfixHesaplama{StakYapisi.java" name="StackYapisi.java" references="false" stamp="1669184789392" version="1.0"/>
+</session>

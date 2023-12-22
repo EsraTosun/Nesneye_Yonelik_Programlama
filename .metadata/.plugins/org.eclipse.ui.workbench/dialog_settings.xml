@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_EXPORT_WIZARD_ID" value="org.eclipse.ui.wizards.export.ZipFile"/>
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<list key="ImportExportPage.STORE_EXPANDED_EXPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+			<item value="org.eclipse.jst.ejb.ui"/>
+		</list>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="NewWizardAction">
+	</section>
+	<section name="ZipFileExportWizard">
+		<item key="WizardZipFileResourceExportPage1.STORE_CREATE_STRUCTURE_ID" value="true"/>
+		<item key="WizardZipFileResourceExportPage1.STORE_COMPRESS_CONTENTS_ID" value="true"/>
+		<list key="WizardZipFileResourceExportPage1.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Esra Tosun\Desktop\mukemmel_sayi_hesapla.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\hafta_11.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project8.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project7.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project6.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project5.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project4.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project3.zip"/>
+			<item value="C:\Users\Esra Tosun\Desktop\211229034_Esra_Tosun_Project1_Loop.zip"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.QuickAccess">
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_WIDTH" value="750"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_HEIGHT" value="844"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_SIZE" value="true"/>
+		<item key="org.eclipse.ui.internal.quickaccess.QuickAccessDialogDIALOG_USE_PERSISTED_LOCATION" value="false"/>
+		<list key="orderedElements">
+		</list>
+		<list key="orderedProviders">
+		</list>
+		<list key="textEntries">
+		</list>
+		<list key="textArray">
+		</list>
+	</section>
+	<section name="FileSystemExportWizard">
+	</section>
+	<section name="FileSystemImportWizard">
+	</section>
+</section>

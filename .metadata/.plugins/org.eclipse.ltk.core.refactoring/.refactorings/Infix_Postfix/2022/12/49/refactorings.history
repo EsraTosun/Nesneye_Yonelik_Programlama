@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;Infix_Postfix&apos;&#x0D;&#x0A;- Original project: &apos;Infix_Postfix&apos;&#x0D;&#x0A;- Original element: &apos;PostfixHesaplama.deneme.java&apos;" description="Delete element" element1="/src&lt;PostfixHesaplama{deneme.java" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1670164003203" subPackages="false" version="1.0"/>
+</session>

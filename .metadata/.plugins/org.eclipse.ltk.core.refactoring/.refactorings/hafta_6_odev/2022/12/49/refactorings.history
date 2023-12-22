@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy package &apos;hafta_6_odev&apos; to &apos;hafta_8_odev/src&apos;&#x0D;&#x0A;- Original project: &apos;hafta_6_odev&apos;&#x0D;&#x0A;- Destination element: &apos;hafta_8_odev/src&apos;&#x0D;&#x0A;- Original element: &apos;hafta_6_odev/src/hafta_6_odev&apos;" description="Copy package" destination="=hafta_8_odev/src" element1="/src&lt;hafta_6_odev" flags="589830" fragments="1" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyPackages" stamp="1669923427948" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;hafta_11_dersteki_ornekleri&apos; to &apos;Istisna_Yonetimi&apos;&#x0D;&#x0A;- Original project: &apos;hafta_11_dersteki_ornekleri&apos;&#x0D;&#x0A;- Original element: &apos;hafta_11_dersteki_ornekleri/src/hafta_11_dersteki_ornekleri&apos;&#x0D;&#x0A;- Renamed element: &apos;hafta_11_dersteki_ornekleri/src/Istisna_Yonetimi&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;hafta_11_dersteki_ornekleri&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;hafta_11_dersteki_ornekleri" name="Istisna_Yonetimi" qualified="false" references="true" stamp="1671533869810" textual="false" version="1.0"/>
+</session>
